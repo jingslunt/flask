@@ -6,7 +6,7 @@ import string
 import time
 import os
 import sys
-os.system("To Get your Wrap ID Go to Settings > Advanced > Diagnostics and copy the ID under CLIENT CONFIGURATION section")
+os.system(echo "To Get your Wrap ID Go to Settings > Advanced > Diagnostics and copy the ID under CLIENT CONFIGURATION section")
 WARP_CLIENT_ID = "4d355424-ddc3-4304-9bf9-a287a4c31dbd" #@param {type:"string"}
 referrer = WARP_CLIENT_ID
 def genString(stringLength):
@@ -72,4 +72,4 @@ while True:
                 for i in range(10,-1,-1):
                         sys.stdout.write(f"\033[1K\r[!] Cooldown: {i} seconds")
                         sys.stdout.flush()
-                        time.sleep(1)
+                        time.sleep(10)
