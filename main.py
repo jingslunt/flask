@@ -6,7 +6,6 @@ import string
 import time
 import os
 import sys
-os.system(echo "To Get your Wrap ID Go to Settings > Advanced > Diagnostics and copy the ID under CLIENT CONFIGURATION section")
 WARP_CLIENT_ID = "4d355424-ddc3-4304-9bf9-a287a4c31dbd" #@param {type:"string"}
 referrer = WARP_CLIENT_ID
 def genString(stringLength):
