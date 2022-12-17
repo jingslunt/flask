@@ -1,7 +1,3 @@
-###screen -dmS warp python3.6 warp.py   #使用screen 后台跑
-###WARP_CLIENT_ID 修改成自己的
-###warp.py 代码如下:
-
 import urllib.request
 import json
 import datetime
