@@ -64,7 +64,7 @@ while True:
                 for i in range(10,-1,-1):
                         sys.stdout.write(f"\033[1K\r[!] Cooldown: {i} seconds")
                         sys.stdout.flush()
-                        time.sleep(8)
+                        time.sleep(2)
         else:
                 b += 1
                 print(f"[#] Total: {g} Good {b} Bad")
